@@ -2,8 +2,11 @@
     :target: http://etrago.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
-ATENTION! THIS IS A VERSION FOR EXTENDING THE TIME AGGREGATION METHODS THAT ESSENTIALLY, COPY AND ENHANCE THE TSAM PACKAGE IN THE SNAPSHOT CLUSTERING FILE, MEANT FOR PERSONAL USE. ALL CHANGES ARE TAG WITH #URI
+ATENTION! THIS IS A VERSION FOR EXTENDING THE TIME AGGREGATION METHODS THAT ESSENTIALLY, COPY AND ENHANCE THE TSAM PACKAGE IN THE SNAPSHOT CLUSTERING FILE, MEANT FOR PERSONAL USE. PLEASE NOTE:
 ==========
+
+- All modifications are tagged with #URI
+- Two examples on how to use chronological and non-chronolgical methods are included int he /tsam-examples folder (essential is the extra_functionality).
 
 eTraGo
 ======
