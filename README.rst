@@ -2,6 +2,9 @@
     :target: http://etrago.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
+ATENTION! THIS IS A VERSION FOR EXTENDING THE TIME AGGREGATION METHODS THAT ESSENTIALLY, COPY AND ENHANCE THE TSAM PACKAGE IN THE SNAPSHOT CLUSTERING FILE, MEANT FOR PERSONAL USE. ALL CHANGES ARE TAG WITH #URI
+==========
+
 eTraGo
 ======
 
