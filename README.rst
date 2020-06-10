@@ -17,52 +17,34 @@ energy storages. Grid expansion measures are not part of this tool and will be
 instead part of 'eGo' https://github.com/openego/eGo
 
 
-Installation
-============
-eTraGo is designed as a Python package therefore it is mandatory to have
-`Python 3 <https://www.python.org/downloads/.>`_ installed. If you have a
-working Python3 environment, use pypi to install the latest eTraGo version.
-We highly recommend you to use a virtual environment. Use following pip
-command in order to install eTraGo:
+Setup
+=========================
 
-.. code-block:: bash
 
-  $ pip3 install eTraGo --process-dependency-links
-
-Installation for Developers
-===========================
-
-Clone the source code from github:
+Create a virtualenvironment (where you like it) and activate it:
 
 .. code-block::
-
-   $ git clone https://github.com/openego/eTraGo
-
-You can checkout to the dev branch and create new feature branches.
-For the correct work-flow, please mind the 
-`Dreissen Branching Model <https://nvie.com/posts/a-successful-git-branching-model/>`_
-
-Use the pip -e to install eTraGo directly from the cloned repository:
-
-.. code-block::
-
-   $ pip3 install -e /path/to/eTraGo/ --process-dependency-links
-
-Using a virtual environment
-===========================
-
-Before installing eTraGo, 
-you create a virtual environment (where you like it) and activate it:
-
-.. code-block:: bash
 
    $ virtualenv venv --clear -p python3.5
    $ source venv/bin/activate
    $ cd venv
 
-Inside your activated virtual environment you can 
-install eTraGo with the pip command, as previously explained.
+Clone the source code from github
 
+.. code-block::
+
+   $ git clone https://github.com/openego/eTraGo
+
+
+With your activated environment `cd` to the cloned directory and run:
+
+.. code-block::
+
+   $ pip3 install -e eTraGo --process-dependency-links
+
+
+This will install all needed packages into your environment. Now you should be
+ready to go.
 
 Copyleft
 =========================

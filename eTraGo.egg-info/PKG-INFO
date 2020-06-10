@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: eTraGo
+Version: 0.6.1
+Summary: electrical Transmission Grid Optimization of flexibility options for transmission grids based on PyPSA
+Home-page: https://github.com/openego/eTraGo
+Author: DLR VE, ZNES Flensburg
+Author-email: 
+License: GNU Affero General Public License Version 3 (AGPL-3.0)
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: docs

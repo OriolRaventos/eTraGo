@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/spyder/app/mainwindow.py", line 2999, in main
+    mainwindow = run_spyder(app, options, args)
+  File "/usr/lib/python3/dist-packages/spyder/app/mainwindow.py", line 2901, in run_spyder
+    main.setup()
+  File "/usr/lib/python3/dist-packages/spyder/app/mainwindow.py", line 784, in setup
+    from spyder.plugins.help import Help
+  File "/usr/lib/python3/dist-packages/spyder/plugins/help.py", line 33, in <module>
+    from spyder.utils.help.sphinxify import (CSS_PATH, generate_context,
+  File "/usr/lib/python3/dist-packages/spyder/utils/help/sphinxify.py", line 32, in <module>
+    from sphinx.application import Sphinx
+  File "/usr/lib/python3/dist-packages/sphinx/application.py", line 38, in <module>
+    from sphinx.environment import BuildEnvironment
+  File "/usr/lib/python3/dist-packages/sphinx/environment.py", line 43, in <module>
+    from sphinx.util.images import guess_mimetype
+  File "/usr/lib/python3/dist-packages/sphinx/util/images.py", line 12, in <module>
+    import imghdr
+  File "/home/raventos/miniconda3/envs/oriol/lib/python3.6/imghdr.py", line 3, in <module>
+    from os import PathLike
+ImportError: cannot import name 'PathLike'

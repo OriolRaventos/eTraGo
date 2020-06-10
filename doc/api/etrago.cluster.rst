@@ -1,6 +1,14 @@
 etrago\.cluster package
 =======================
 
+Module contents
+---------------
+
+.. automodule:: etrago.cluster
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 Submodules
 ----------
 
@@ -20,11 +28,4 @@ etrago\.cluster\.snapshot module
     :undoc-members:
     :show-inheritance:
 
-Module contents
----------------
-
-.. automodule:: etrago.cluster
-    :members:
-    :undoc-members:
-    :show-inheritance:
 

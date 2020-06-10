@@ -11,11 +11,11 @@ Welcome to eTraGo's documentation!
    :align: right
    :scale: 80%
 
-.. warning:: Note, eTraGo and its documentation is in
-             continuous development.
+.. warning:: Note, eTraGo and especially its documentation is still in
+             heavy development.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 7
    
    about
    installation
